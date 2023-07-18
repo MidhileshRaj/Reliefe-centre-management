@@ -1,0 +1,137 @@
+/**************** chefs_part css start ****************/
+.volunteers_part {
+    @media #{$tab}{
+        padding: 70px 0 50px;
+    }
+    @media #{$medium_device}{
+    
+    }
+    .single_blog_item {
+        position: relative;
+        @include transform_time(0.5s);
+
+        .single_blog_img {
+            position: relative;
+
+            .social_icon {
+                position: absolute;
+                text-align: center;
+                width: 94%;
+                margin: 0 auto;
+                left: 3%;
+                background-color: rgba(0, 196, 36, .8);
+                padding: 20px 0px;
+                opacity: 0;
+                visibility: hidden;
+                @include transform_time(0.5s);
+                height: 100%;
+                bottom: 0;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                a {
+                    text-align: center;
+                    margin: 10px 0;
+                    color: #fff;
+                    display: inherit;
+                    &:hover {
+                        color: $black_color !important;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .social_icon {
+                bottom: 18px;
+                opacity: 1;
+                visibility: visible;
+                padding-top: 40%;
+            }
+
+            h3 {
+                color: $btn_bg !important;
+            }
+        }
+
+        @media #{$tab} {
+            margin-bottom: 20px;
+
+            .single_blog_img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        @media #{$medium_device} {}
+
+        h3 {
+            margin-bottom: 19px !important;
+            font-size: 22px;
+            font-weight: 700;
+            @media #{$tab} {
+                margin-bottom: 10px !important;
+            }
+    
+            @media #{$medium_device} {
+                margin-bottom: 10px !important;
+            }
+        }
+        p{
+            line-height: 14px;
+        }
+
+    }
+
+    .single_blog_text {
+        @include transform_time(0.5s);
+        padding: 37px 0 0;
+        border: 0px solid transparent !important;
+        background-color: $white_color;
+        text-align: center;
+        @media #{$tab} {
+            padding: 22px 0 0;
+        }
+
+        @media #{$medium_device} {
+            padding: 27px 0 0;
+        }
+
+    }
+}
+.single_doctor_part{
+    padding: 140px 0 70px;
+    @media #{$tab}{
+        padding: 70px 0 50px;
+    }
+    @media #{$medium_device}{
+        padding: 80px 0 60px;
+    }
+    .single_blog_item{
+        margin-bottom: 70px;
+        @media #{$tab}{
+            margin-bottom: 20px;
+        }
+        @media #{$medium_device}{
+            margin-bottom: 20px;
+        }
+    }
+}
+.single_page_volunteers{
+    padding: 140px 0 110px;
+    @media #{$tab}{
+        padding: 70px 0 50px;
+    }
+    @media #{$medium_device}{
+        padding: 80px 0 50px;
+    }
+    .single_blog_item{
+        margin-bottom: 30px;
+        @media #{$tab}{
+            margin-bottom: 20px;
+        }
+        @media #{$medium_device}{
+        
+        }
+    }
+}

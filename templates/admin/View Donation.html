@@ -1,0 +1,55 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form name="form1" method="post" action="/admin_view_donations_search#abc">
+  <table  class="table-borderless table" width="200" border="1">
+    <tr>
+      <td>From date</td>
+      <td><label for="textfield"></label>
+      <input required class="form-control" type="date" name="textfield" id="textfield"></td>
+      <td>To date</td>
+      <td><label for="textfield2"></label>
+      <input type="date" class="form-control" name="textfield2" id="textfield2"></td>
+      <td><input class="btn btn-secondary"  required type="submit" name="button" id="button" value="Search"></td>
+    </tr>
+  </table>
+  <p>Guest donations</p>
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no.</td>
+      <td>User details</td>
+      <td>Account no.</td>
+      <td>Amount</td>
+      <td>Date</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }},<br>{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['account_no'] }}</td>
+      <td>&nbsp;{{ i['amount'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+    </tr>
+      {% endfor %}
+  </table>
+  <p>Public Donation</p>
+  <table class="table table-bordered" width="200" border="1">
+  <tr>
+    <td>sl no.</td>
+    <td>Account details</td>
+    <td>Amount</td>
+    <td>Date</td>
+  </tr>
+      {% for i in data1 %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i['account_no'] }}</td>
+      <td>&nbsp;{{ i['amount'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+  </tr>
+      {% endfor %}
+</table>
+
+</form>
+{% endblock %}
+</body>
+</html>

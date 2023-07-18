@@ -1,0 +1,130 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form action="/add_manager_post" method="post"  enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Name</td>
+      <td><label for="textfield" ></label>
+      <input class="form-control" required type="text" name="textfield" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><label id="label" style="color: red" for="textfield2"></label>
+      <input class="form-control" required   type="email" name="textfield2" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td><label for="textfield3"></label>
+      <input class="form-control" required minlength="9" maxlength="10" type="text" name="textfield3" id="textfield3" /></td>
+    </tr>
+    <tr>
+      <td>Dob</td>
+      <td><label for="textfield4"></label>
+      <input class="form-control" required  type="date" name="textfield4" id="textfield4" /></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td><p>
+          <select name="Gender" required>
+              <option>Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+          </select>
+          <br>
+{#        <label>#}
+{#          Male</label>#}
+{#                    <input class="form-control" required type="radio" name="Gender" value="Male" id="Gender_0" />#}
+{##}
+{#        <br />#}
+{#        <label>#}
+{#          <input type="radio" required style="" name="Gender" value="Female" id="Gender_1" />#}
+{#          Female</label>#}
+{#        <br />#}
+{#        <label>#}
+{#          <input required type="radio" name="Gender" value="Other" id="Gender_2" />#}
+{#          Other</label>#}
+{#        <br />#}
+      </p></td>
+    </tr>
+    <tr>
+      <td>Place</td>
+      <td><label for="textfield5"></label>
+      <input class="form-control" required  type="text" name="textfield5" id="textfield5" /></td>
+    </tr>
+    <tr>
+      <td>Post</td>
+      <td><label for="textfield6"></label>
+      <input  class="form-control" required type="text" name="textfield6" id="textfield6" /></td>
+    </tr>
+    <tr>
+      <td>District</td>
+      <td><label for="textfield7"></label>
+      <input  class="form-control" required  type="text" name="textfield7" id="textfield7" /></td>
+    </tr>
+    <tr>
+      <td>Photo</td>
+      <td><label for="fileField"></label>
+      <input  class="form-control" required  type="file" name="fileField" id="fileField" /></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input id="btn" class="btn btn-outline-success" type="submit" name="button" id="button" value="Submit" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+    <script src="/static/jqueryy.js"></script>
+
+<script>
+ 	$(document).ready(function(){
+ $(document).on('keyup','#textfield2',function () {
+
+			var username=$(this).val();
+		//	alert(uid);
+
+
+
+
+  $.ajax({
+            url: "/username_already/"+username,
+            type: "GET",
+            data: {
+
+
+            },
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function(dat) {
+
+
+
+                 var data=dat["status"];
+{#               alert(data);#}
+         if(data =="ok")
+         {
+         $("#btn").prop("disabled", true);
+            $("#label").text("Email  already exist");
+         }
+         else
+         {
+         $("#btn").prop("disabled", false);
+         $("#label").text("");
+         }
+
+
+            },
+            error: function(ts) {
+//{#                alert(ts);#}
+            }
+        });
+  });
+
+
+
+	});
+</script>
+
+{% endblock %}
+</body>
+</html>

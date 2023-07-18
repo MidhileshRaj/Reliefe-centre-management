@@ -1,0 +1,64 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form action="/edit_manager_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <input type="hidden" value="{{ data['lid'] }}" name="lid"/>
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Name</td>
+      <td><label for="textfield"></label>
+      <input class="form-control"  type="text" name="textfield" id="textfield"  value="{{ data['name'] }}"/></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><label for="textfield2"></label>
+      <input class="form-control"  type="text" name="textfield2" value="{{ data['email'] }}" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td><label for="textfield3"></label>
+      <input class="form-control"  type="text" name="textfield3" id="textfield3" value="{{ data['phone'] }}"/></td>
+    </tr>
+    <tr>
+      <td>Dob</td>
+      <td><label for="textfield4"></label>
+      <input class="form-control"  type="date" name="textfield4" id="textfield4" value="{{ data['dob'] }}"/></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td><select  name="Gender"  required>
+              <option >Select Gender</option>
+              <option {% if data['gender']=='Male' %} selected{% endif %} value="Male">Male</option>
+              <option value="Female"  {% if data['gender']=='Female' %} selected{% endif %}>Female</option>
+              <option value="Other"  {% if data['gender']=='Other' %} selected{% endif %}>Other</option>
+          </select></td>
+    </tr>
+    <tr>
+      <td>Place</td>
+      <td><label for="textfield5"></label>
+      <input  class="form-control" type="text" name="textfield5" value="{{ data['place'] }}" id="textfield5" /></td>
+    </tr>
+    <tr>
+      <td>Post</td>
+      <td><label for="textfield6"></label>
+      <input  class="form-control" type="text" name="textfield6" value="{{ data['post'] }}" id="textfield6" /></td>
+    </tr>
+    <tr>
+      <td>District</td>
+      <td><label for="textfield7"></label>
+      <input class="form-control" type="text" name="textfield7" value="{{ data['district'] }}" id="textfield7" /></td>
+    </tr>
+    <tr>
+      <td>Photo</td>
+      <td><label for="fileField"></label><img src="{{ data['photo'] }}" height="80px" width="80px" alt=""/>
+      <input class="form-control" type="file" name="fileField" id="fileField" /></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input class="btn btn-outline-success" type="submit" name="button" id="button" value="Submit" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% extends "guest/Home2.html" %}
+{% block body %}
+<form method="post" action="/usersentfeedback">
+<table class="table table-bordered">
+{% for i in data %}
+
+
+<tr>
+<td width="50px">{{ loop.index }}</td>
+
+<td >{{ i['question'] }} <input type="hidden" name="id" value="{{ i['qid'] }}"></td>
+<td>
+    <textarea name="a" class="form-control" required></textarea>
+</td>
+
+</tr>
+
+{% endfor %}
+</table>
+
+<input type="submit" value="Submit" class="btn btn-success"/>
+</form>
+{% endblock %}

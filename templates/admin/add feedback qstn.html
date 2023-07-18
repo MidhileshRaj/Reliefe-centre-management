@@ -1,0 +1,18 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form action="admin_add_feedbackqst_post" method="post" enctype="multipart/form-data" name="form1">
+    <table border="1" class="table table-bordered">
+        <tr>
+            <th>Question</th>
+            <th><input required type="text" class="form-control" name="qstn"></th>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><input type="submit" value="Submit" class="btn btn-success"></td>
+
+        </tr>
+    </table>
+
+</form>
+{% endblock %}
+</body>
+</html>

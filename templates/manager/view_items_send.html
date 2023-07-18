@@ -1,0 +1,27 @@
+<body>
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form action="" method="post" enctype="multipart/form-data">
+<table border="1" class="table table-bordered">
+    <tr>
+        <th>Sl no</th>
+        <th>Guest Details</th>
+{#        <th>Message</th>#}
+        <th>Date</th>
+    </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ i['name'] }}<br>{{ i['email'] }}<br>{{ i['phone'] }}</td>
+        <td>{{ i['date'] }}</td>
+        <td></td>
+    </tr>
+    {% endfor %}
+</table>
+</form>
+
+
+
+{% endblock %}
+    </body>
+</html>

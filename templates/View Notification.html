@@ -1,0 +1,43 @@
+{% extends 'index2.html' %}
+{% block body %}
+<div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Notification</span></h3>
+                    </div>
+                </div>
+            </div>
+
+<form id="form1" name="form1" method="post" action="/public_view_notification_search#asd">
+  <table class="table-borderless table" border="1">
+    <tr>
+      <td>From</td>
+      <td><label for="textfield"></label>
+      <input class="form-control" required type="date" name="textfield" id="textfield" /></td>
+      <td>To</td>
+      <td><label for="textfield2"></label>
+      <input class="form-control" required type="date" name="textfield2" id="textfield2" /></td>
+      <td><input type="submit" class="btn btn-secondary" name="button" id="button" value="Submit" /></td>
+    </tr>
+  </table>
+  <table class="table-bordered table" border="1">
+    <tr>
+      <td>Sl no</td>
+      <td>Notification</td>
+      <td>Date</td>
+{#      <td>&nbsp;</td>#}
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}&nbsp;</td>
+      <td>&nbsp;{{ i['notification'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+{#      <td><a href="/delete_notification/{{ i['notification_id'] }}" onclick="return confirm(' confirm to delete')">delete</a></td>#}
+    </tr>
+      {% endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

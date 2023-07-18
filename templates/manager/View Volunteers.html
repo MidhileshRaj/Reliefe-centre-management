@@ -1,0 +1,27 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Volunteer</td>
+      <td>contact</td>
+      <td>Centre details</td>
+      <td></td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;<img src="{{ i['photo'] }}" width="100px" height="100px" alt=""/><br>{{ i['gname'] }},</td>
+      <td>&nbsp;{{ i['phone'] }}<br>{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['name'] }},<br>{{ i['place'] }},{{ i['district'] }}</td>
+      <td><a class="btn btn-outline-success" href="/approve_volunteer/{{ i['vol_lid'] }}" >Approve</a> <br><br><a class="btn btn-outline-danger" href="/reject_volunteer/{{ i['vol_lid'] }}">Reject</a> &nbsp;</td>
+    </tr>
+      {%  endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

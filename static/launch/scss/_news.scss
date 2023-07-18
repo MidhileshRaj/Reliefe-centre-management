@@ -1,0 +1,43 @@
+.news__area{
+    background: #F3FCF8;
+    .single__blog{
+        @include box-shadow(0 3px 6px rgba(0, 0, 0,.16));
+        @include border-radius(7px);
+        background: #fff;
+        overflow: hidden;
+        @media #{$mobile_device}{
+            display: block !important;
+        }
+        .thum{
+            img{
+                width: 100%;
+                width: 264px;
+                @media #{$mobile_device}{
+                    width: 100%;
+                }
+            }
+        }
+        .newsinfo{
+            padding: 20px 40px;
+            span{
+                font-size: 14px;
+                font-weight: 600;
+                color: #222222;
+                font-family: $font2;
+            }
+            h3{
+                font-size: 20px;
+                color: #222222;
+                margin-top: 17px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 30px;
+                color: #7A7B7C;
+                margin-bottom: 42px;
+                margin-top: 21px;
+            }
+        }
+    }
+
+}

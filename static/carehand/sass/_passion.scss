@@ -1,0 +1,317 @@
+/**************** passion part css start ****************/
+.passion_part {
+    padding: 180px 0 117px;
+    @media #{$tab} {
+        padding: 70px 0 50px;
+    }
+
+    @media #{$medium_device} {
+        padding: 80px 0 60px;
+    }
+
+    .card {
+        border: 0px solid transparent;
+    }
+
+    .passion_right_sidebar .widget_title {
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-style: inherit !important;
+    }
+
+    .single-home-passion {
+        @media #{$small_mobile} {
+            margin-bottom: 20px;
+        }
+
+        @media #{$large_mobile} {
+            margin-bottom: 20px;
+        }
+
+        @media #{$tab_device} {
+            margin-bottom: 20px;
+        }
+
+        @media #{$medium_device} {}
+
+        .card-img-top {
+            border-radius: 0px;
+        }
+
+        .card {
+            background-color: transparent;
+            position: relative;
+
+            img {
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            
+            .card-body {
+                padding: 33px 0 23px;
+                @include transform_time(.5s);
+
+                @media #{$small_mobile} {
+                    padding: 15px 10px 0;
+                }
+
+                @media #{$large_mobile} {
+                    padding: 15px 10px 0;
+                }
+
+                @media #{$tab_device} {}
+
+                @media #{$medium_device} {
+                    padding: 20px 14px;
+                }
+
+                .btn_4 {
+                    margin-bottom: 20px;
+
+                }
+
+                a {
+                    color: $white_color;
+                    text-transform: capitalize;
+                    @include transform_time(0.8s);
+                }
+            }
+
+            .dot {
+                position: relative;
+                padding-left: 20px;
+
+                &:after {
+                    position: absolute;
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    top: 5px;
+                    left: 0;
+                    background-color: $btn_bg;
+                    border-radius: 50%;
+                }
+            }
+
+            ul {
+                li {
+                    img {
+                        margin-bottom: 10px;
+                        display: inline-block;
+                        padding-right: 10px;
+                        border-top-left-radius: 0;
+                        border-top-right-radius: 0;
+
+                        @media #{$small_mobile} {
+                            margin-bottom: 5px;
+                            margin-top: 5px;
+                        }
+
+                        @media #{$large_mobile} {
+                            margin-bottom: 5px;
+                            margin-top: 5px;
+                        }
+
+                        @media #{$tab_device} {
+                            margin-bottom: 5px;
+                            margin-top: 5px;
+                        }
+
+                        @media #{$medium_device} {
+                            margin-bottom: 5px;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+
+
+            h5 {
+                font-weight: 700;
+                line-height: 1.5;
+                font-size: 20px;
+                @include transform_time(0.8s);
+                text-transform: capitalize;
+
+                @media #{$small_mobile} {
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                }
+
+                @media #{$large_mobile} {
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+
+                @media #{$tab_device} {
+                    margin-bottom: 10px;
+                }
+
+                @media #{$medium_device} {
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                }
+
+                &:hover {
+                    @include transform_time(0.8s);
+                    color: $btn_bg;
+                }
+
+            }
+
+            ul {
+                margin-bottom: 38px;
+                @media #{$tab}{
+                    margin-bottom: 15px;
+                }
+                @media #{$medium_device}{
+                
+                }
+                li {
+                    display: inline-block;
+                    color: $font_4;
+                    margin-right: 33px;
+                    text-transform: uppercase;
+
+                    @media #{$small_mobile} {
+                        margin-right: 10px;
+                    }
+
+                    @media #{$large_mobile} {
+                        margin-right: 10px;
+                    }
+
+                    @media #{$tab_device} {
+                        margin-right: 10px;
+                    }
+
+                    @media #{$medium_device} {
+                        margin-right: 10px;
+                    }
+
+                    span {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .passion_btn {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: $font_stack_2;
+        font-weight: 500;
+        margin-top: 20px;
+        display: inline-block;
+        position: relative;
+        color: $heading_color !important;
+        @include transform_time(0.4s);
+        @media #{$large_mobile} {
+            margin-top: 10px;
+        }
+        &:after {
+            position: absolute;
+            content: "";
+            right: -33px;
+            top: 11px;
+            width: 20px;
+            height: 2px;
+            background-color: $heading_color;
+        }
+        &:hover {
+            color: $btn_bg !important;
+
+            &:after {
+                background-color: $btn_bg;
+            }
+        }
+    }
+    //skilbar css
+    .skill {
+        padding: 42px 0 48px;
+        position: relative;
+        overflow-x: hidden;
+        @media #{$tab}{
+            padding: 25px 0 20px;
+        }
+        @media #{$medium_device}{
+            padding: 25px 0 20px;
+        }
+    }
+    .skill>p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 8px;
+    }
+    .skill:before {
+        width: 100%;
+        height: 6px;
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: rgb(238, 238, 238);
+        bottom: 48px;
+        border-radius: 5px;
+        @media #{$tab}{
+            bottom: 21px;
+        }
+        @media #{$medium_device}{
+            bottom: 21px;
+        }
+    }
+    .skill-bar {
+        width: 100%;
+        height: 6px;
+        background-color: $btn_bg;
+        display: block;
+        position: relative;
+        border-radius: 5px;
+        &:after{
+            position: absolute;
+            right: 0;
+            top: -5px;
+            height: 16px;
+            width: 8px;
+            content: "";
+            background-color: $btn_bg;
+            border-radius: 5px;
+        }
+    }
+    /* SKILL 1 */
+    .skill1 {
+        width: 95%;
+    }
+    .skill-bar span {
+        position: absolute;
+        top: -30px;
+        padding: 0;
+        font-size: 14px;
+        padding: 3px 0;
+        font-weight: 300px;
+    }
+    .skill-bar {
+        position: relative;
+    }
+    /* SKILL 2 */
+    .skill11 {
+        width: 88%;
+    }
+
+    .skill11 .skill-count11 {
+        right: 0;
+    }
+    .card-title{
+        margin-bottom: 0;
+    }
+}
+.passion_section_padding{
+    padding: 140px 0 117px;
+    @media #{$tab_device}{
+        padding: 70px 0 47px !important;
+    }
+    @media #{$medium_device}{
+        padding: 80px 0 57px !important;
+    }
+}

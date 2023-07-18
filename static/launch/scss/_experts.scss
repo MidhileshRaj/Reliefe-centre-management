@@ -1,0 +1,80 @@
+.expert_doctors_area{
+    padding-top: 190px;
+    padding-bottom: 130px;
+    @media #{$mobile_device} {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .single_expert{
+        margin-bottom: 40px;
+        .expert_thumb{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            overflow: hidden;
+            img{
+                @include transition(.3s);
+                @include transform(scale(1));
+                width: 100%;
+            }
+        }
+        .experts_name{
+            background: #fff;
+            padding-top: 16px;
+            padding-bottom: 18px;
+            @include border-radius(10px);
+            padding: 22px 70px 25px 70px;
+            box-shadow: 0px 16px 30px 0px rgba(0, 0, 2, 0.03);
+            @include border-radius(10px);
+            position: relative;
+            @include transform(translateY(-30px));
+            @media #{$mobile_device} {
+                padding: 20px;
+            }
+            @media #{$mid_device} {
+                padding: 20px;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 500;
+                margin-bottom: 1px;
+                @include transition(.3s);
+                color: #26bef2;
+                margin-bottom: 6px;
+            }
+            span{
+                color: #738ea9;
+                font-size: 16px;
+                @include transition(.3s);
+                display: block;
+                font-weight: 400;
+                font-family: $font1;
+            }
+            .social_links{
+                border-top: 1px solid #cbf0ff;
+                padding-top: 26px;
+                margin-top: 24px;
+                li{
+                    display: inline-block;
+                    margin: 0 11px;
+                    a{
+                        color: #c2c8d3;
+                        display: inline-block;
+                        font-size: 16px;
+                        &:hover{
+                            color: #0d448f;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover{
+            .expert_thumb{
+                img{
+                    @include transform(scale(1.1));
+                }
+            }
+        }
+    }
+}
+
+  

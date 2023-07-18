@@ -1,0 +1,60 @@
+.slider_bg_1{
+    background-image: url(../img/banner/banner.png);
+}
+.slider_bg_2{
+    background-image: url(../img/banner/banner2.png);
+}
+.slider_area{
+    .single_slider{
+        height: 742px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        @media #{$mobile_device} {
+            height: 500px;
+        }
+        @media #{$tablet_device} {
+            height: 700px;
+        }
+        .slider_text{
+            >span{
+                text-transform: capitalize;
+                font-size: 26px;
+                color: #fff;
+                font-weight: 600;
+                font-family: $font2;
+                display: block;
+            }
+            h3{
+                color: #fff;
+                font-family: $font1;
+                font-size: 84px;
+                margin-top: 6px;
+                margin-bottom: 9px;
+                line-height: 1.14;
+             @media #{$mobile_device} {
+               font-size: 33px;
+               margin-bottom: 20px;
+            }
+             @media #{$tablet_device} {
+                font-size: 55px;
+            }
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #FFFFFF;
+                margin-bottom: 40px;
+                margin-top: 10px;
+             @media #{$mid_device} {
+                font-size: 16px;
+             }
+             @media #{$mobile_device} {
+                font-size: 16px;
+             }
+            }
+        }
+    } 
+}
+
+  

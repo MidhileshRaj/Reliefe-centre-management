@@ -1,0 +1,30 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/manager_send_req__post">
+<input type="hidden" name="rcid" value="{{ rcid }}"/>
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Item requesting</td>
+      <td><label for="textfield"></label>
+      <input required class="form-control" type="text" name="textfield" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td>Type</td>
+      <td><label for="textfield2"></label>
+      <input class="form-control" required type="text" name="textfield2" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td>Details</td>
+      <td><label for="textarea"></label>
+      <textarea required class="form-control" name="textarea" id="textarea" cols="45" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input  class="btn btn-outline-success" type="submit" name="button" id="button" value="Submit" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,40 @@
+{% extends "admin/Home2.html" %}
+{% block body %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+
+{% for i in range(0,cnt) %}
+<canvas id="myChart{{ i }}" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["negative", "positive", "neutral"];
+var yValues = [{{ ans[i][0] }},{{ ans[i][1] }},{{ ans[i][2] }}];
+var barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+
+];
+
+new Chart("myChart{{ i }}", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "{{ l[i] }}"
+    }
+  }
+});
+</script>
+
+{% endfor %}
+
+</body>
+{% endblock %}

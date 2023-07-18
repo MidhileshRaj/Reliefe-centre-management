@@ -1,0 +1,57 @@
+/**************** intro_video css start ****************/
+.intro_video_bg{
+    @include background("../img/intro_video_bg.png");
+    height: 480px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    @media #{$small_mobile}{
+      height: 350px;
+    }
+    @media #{$large_mobile}{
+      height: 350px;
+    }
+    @media #{$tab_device}{
+      height: 350px;
+    }
+    @media #{$medium_device}{
+      height: 350px;
+    }
+    
+    &:after{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "";
+        top: 0;
+        left: 0;
+        background-color: $black_color;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    h2{
+        font-size: 42px;
+        color: $white_color;
+        margin-bottom: 60px;
+        @media #{$small_mobile}{
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+        @media #{$large_mobile}{
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+        @media #{$tab_device}{
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+        @media #{$medium_device}{
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+    }
+    .btn_2{
+      width: 200px;
+    }
+}

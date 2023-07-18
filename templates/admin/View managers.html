@@ -1,0 +1,45 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/admin_view_manager_search#abc"><table class="table-bordered table" width="200" border="1">
+  <tr>
+    <td><label for="textfield"></label>
+      <input required class="form-control" type="text" name="textfield" id="textfield" /></td>
+    <td><input class="btn btn-secondary" type="submit" name="button" id="button" value="Search" /></td>
+    </tr>
+</table>
+
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Name</td>
+      <td>Email</td>
+      <td>Phone</td>
+      <td>Dob</td>
+      <td>Gender</td>
+      <td>District</td>
+      <td>Address</td>
+      <td>Photo</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }}</td>
+{#      <td>&nbsp;{{ i[''] }}</td>#}
+      <td>&nbsp;{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['phone'] }}</td>
+      <td>&nbsp;{{ i['dob'] }}</td>
+      <td>&nbsp;{{ i['gender'] }}</td>
+      <td>&nbsp;{{ i['district'] }}</td>
+      <td>&nbsp;{{ i['place'] }},<br>{{ i['post'] }},{{ i['district'] }}</td>
+      <td>&nbsp;<img src="{{ i['photo'] }}" width="100px" height="100px" alt=""/></td>
+      <td><a class="btn btn-outline-warning" href="/edit_manager/{{ i['lid'] }}#abc">Edit</a></td>
+      <td><a class="btn btn-outline-danger" href="/delete_manager/{{ i['lid'] }}" onclick="return confirm('Confirm to delete')">Delete</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

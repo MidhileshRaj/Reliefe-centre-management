@@ -1,0 +1,19 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<table class="table table-bordered " border="1">
+    <tr>
+        <th>Sl.no</th>
+        <th>Question</th>
+        <th></th>
+    </tr>
+    {% for i in data %}
+    <tr>
+        <th>{{ loop.index }}</th>
+        <th>{{ i['question'] }}</th>
+        <th><a href="/admin_delete_feedbackqst/{{ i['qid'] }}" class="btn btn-danger">Delete</a> </th>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}
+</body>
+</html>

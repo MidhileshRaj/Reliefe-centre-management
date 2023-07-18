@@ -1,0 +1,39 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+{#      <td>sl no</td>#}
+      <td>Name</td>
+      <td>Email</td>
+      <td>Phone</td>
+      <td>Dob</td>
+      <td>Gender</td>
+      <td>District</td>
+      <td>Address</td>
+      <td>Photo</td>
+{#      <td></td>#}
+    </tr>
+
+    <tr>
+{#      <td>&nbsp;{{ loop.index }}</td>#}
+       <td>&nbsp;{{ data['name'] }}</td>
+{#      <td>&nbsp;{{ data[''] }}</td>#}
+      <td>&nbsp;{{ data['email'] }}</td>
+      <td>&nbsp;{{ data['phone'] }}</td>
+      <td>&nbsp;{{ data['dob'] }}</td>
+      <td>&nbsp;{{ data['gender'] }}</td>
+      <td>&nbsp;{{ data['district'] }}</td>
+      <td>&nbsp;{{ data['place'] }},<br>{{ data['post'] }},{{ data['district'] }}</td>
+      <td>&nbsp;<img src="{{ data['photo'] }}" width="100px" height="100px" alt=""/></td>
+{#      <td><a href="#">Change</a></td>#}
+{#      <td><a href="/delete_allocation/{{ data['alct_id'] }}" onclick="return confirm('Confirm to delete')">Delete</a></td>#}
+    </tr>
+
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

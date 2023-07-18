@@ -1,0 +1,34 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<table class="table-bordered table" width="200" border="1">
+  <tr>
+    <td colspan="2">&nbsp;<img src="{{ data['photo'] }}" height="100px" width="100px" alt=""/></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>&nbsp;{{ data['name'] }}</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>&nbsp;{{ data['gender'] }}</td>
+  </tr>
+  <tr>
+    <td>Dob</td>
+    <td>{{ data['dob'] }}&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>&nbsp;{{ data['email'] }}</td>
+  </tr>
+  <tr>
+    <td>Phone</td>
+    <td>&nbsp;{{ data['phone'] }}</td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>&nbsp;{{ data['place'] }}<br>{{ data['post'] }},{{ data['pin'] }},<br>{{ data['district'] }}</td>
+  </tr>
+</table>
+{% endblock %}
+</body>
+</html>

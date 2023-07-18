@@ -1,0 +1,66 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/add_rcentre_post">
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Name</td>
+      <td><label for="textfield"></label>
+      <input  required class="form-control" type="text" name="textfield" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td><label for="textfield2"></label>
+      <input required class="form-control"  type="text" name="phone" id="textfield2" /></td>
+    </tr>
+      <tr>
+      <td>Place</td>
+      <td><label for="textfield2"></label>
+      <input required class="form-control"  type="text" name="textfield2" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td>Post</td>
+      <td><label for="textfield3"></label>
+      <input  required class="form-control" type="text" name="textfield3" id="textfield3" /></td>
+    </tr>
+    <tr>
+      <td>Pin</td>
+      <td><label for="textfield4"></label>
+      <input  required class="form-control" type="text" name="textfield4" id="textfield4" /></td>
+    </tr>
+    <tr>
+      <td>District</td>
+      <td><label for="textfield5"></label>
+      <input required class="form-control"  type="text" name="textfield5" id="textfield5" /></td>
+    </tr>
+    <tr>
+      <td>Facilities details</td>
+      <td><label for="textarea"></label>
+      <textarea required class="form-control"  name="textarea" id="textarea" cols="45" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td>Maximum occupancy</td>
+      <td><label for="textfield6"></label>
+      <input  required class="form-control" type="text" name="textfield6" id="textfield6" /></td>
+    </tr>
+    <tr>
+      <td> No. of Volunteers needed</td>
+      <td><label for="textfield7"></label>
+      <input  required class="form-control" type="text" name="textfield7" id="textfield7" /></td>
+    </tr>
+      <tr>
+          <td>Manager</td>
+          <td><select required class="form-control" name="manager" >
+              {% for i in data %}
+              <option value="{{ i['lid'] }}">{{ i['name'] }}</option>
+              {% endfor %}
+          </select> </td>
+      </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input class=" btn  btn-outline-success" type="submit" name="button" id="button" value="Submit" />
+      </div></td>
+    </tr>
+  </table>
+</form>{% endblock %}
+</body>
+</html>

@@ -1,0 +1,106 @@
+/************Team css start***************/
+.be_part {
+  position: relative;
+  z-index: 99;
+  @include background("../img/review_bg.png");
+  padding: 140px 0 180px;
+  @media #{$tab}{
+    padding: 70px 0;
+  }
+  @media #{$medium_device}{
+    padding: 80px 0;
+  }
+  &:after{
+      content: "";
+      background-color: rgb(26, 29, 41);
+      opacity: 0.8;
+      position: absolute;
+      left: 0px;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+  }
+  .be_img{
+    position: absolute;
+    right: 0;
+    top: 48%;
+    max-width: 51%;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+    @media #{$big_screen} {
+      max-width: 53%;
+      top: 64%;
+    }
+    @media #{$extra_big_screen} {
+      max-width: 50%;
+      top: 54%;
+    }
+    @media #{$medium_device}{
+      top: 58%;
+    }
+    @media #{$tab}{
+      display: none;
+    }
+    
+  }
+  .be_part_text {
+    @media #{$small_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$large_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$tab_device} {
+      padding-left: 0;
+    }
+
+    @media #{$medium_device} {
+      padding-left: 0;
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 34px;
+      position: relative;
+      color: $white_color;
+      @media #{$tab} {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 35px;
+      }
+
+      @media #{$medium_device} {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 40px;
+      }
+    }
+
+    p {
+      line-height: 1.929;
+      margin-bottom: 31px;
+      color: $white_color;
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+    }
+
+    .btn_2 {
+      margin-top: 13px;
+    }
+  }
+}

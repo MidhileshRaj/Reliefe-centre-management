@@ -1,0 +1,36 @@
+{% extends 'volunteer/Home2.html' %}
+{% block body %}
+<form name="form1" method="post" action="">
+{#  <table class="table-borderless table" width="200" border="1">#}
+{#    <tr>#}
+{#      <td>&nbsp;</td>#}
+{#      <td>&nbsp;</td>#}
+{#    </tr>#}
+{#  </table>#}
+  <table class="table-active table" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Name</td>
+      <td>Age</td>
+      <td>Gender</td>
+      <td>Address</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['rname'] }}</td>
+      <td>&nbsp;{% if i['age']>18 and i['age']<60 %}Adult{% elif i['age']>60 %}Senior citizen {% elif i['age']<5 %}Baby {% else %}Child{% endif %}<br><b>Age: </b>{{ i['age'] }}</td>
+      <td>&nbsp;{{ i['gender'] }}</td>
+      <td>&nbsp;{{ i['address'] }}</td>
+      <td><a href="/edit_refugees/{{ i['rid'] }}#asd" class="btn btn-outline-warning">Edit</a></td>
+      <td><a href="/delete_refugee/{{ i['rid'] }}" class="btn btn-outline-danger" onclick="return confirm('Confirm to delete...!')">Delete</a></td>
+    </tr>
+  {% endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

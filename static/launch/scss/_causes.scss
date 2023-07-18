@@ -1,0 +1,166 @@
+.popular_causes_area{
+
+    &.cause_details{
+        .single_cause{
+            .thumb{
+                img{
+                    width: 100%;
+                    @include transform(scale(1));
+                    @include transition(.3s) ;
+                }
+            }
+            .causes_content{
+                @include box-shadow(none);
+                padding:100px 0 0 0;
+                @media #{$mobile_device}{
+                    padding:50px 0 0 0;
+                }
+                .custom_progress_bar{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                   .progress{
+                    height: 12px;
+                    overflow: visible;
+                    font-size: 12px;
+                    background-color:#FF4F42;
+                    border-radius: 0;
+                     .progress-bar{
+                        background-color: #3CC78F;
+                        position: relative;
+                         .progres_count{
+                            position: absolute;
+                            right: 0;
+                            width: 100px;
+                            height: 100px;
+                            @include border-radius(50%);
+                            font-size: 35px;
+                            background: #3CC78F;
+                            line-height: 100px;
+                            @media #{$mobile_device} {
+                                width: 40px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 15px;
+                            }
+                         }
+                     }  
+                   } 
+                }
+    
+    
+                .balance{
+                    padding-bottom: 20px;
+                    margin-bottom: 25px;
+                    @media #{$mobile_device}{
+                        margin-bottom: 0;
+                    }
+                    span{
+                        font-size: 18px;
+                       color: #222222;
+                       font-weight: 600;
+                       font-family: $font2;
+                    }
+                    border-bottom:0 ;
+                }
+                h4{
+                    font-size: 40px;
+                    margin-bottom: 20px;
+                    @media #{$mobile_device} {
+                        font-size: 25px;
+                    }
+                }
+                p{
+                    margin-bottom: 15px;
+                    color: #7A7B7C;
+                    font-size: 16px;
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+            }
+            &:hover{
+                .thumb{
+                    img{
+                        @include transform(scale(1));
+                    }
+                }
+            }
+        }
+    }
+    .single_cause{
+        margin-bottom: 30px;
+        .thumb{
+            @include border-radius(7px 7px 0 0);
+
+            overflow: hidden;
+            img{
+                width: 100%;
+                @include transform(scale(1));
+                @include transition(.3s) ;
+            }
+        }
+        .causes_content{
+            @include box-shadow( 0 3px 6px rgba(0, 0, 0,.16));
+            padding: 30px 30px 34px 30px;
+            position: relative;
+            @include border-radius(0 0px 7px 7px);
+
+            .custom_progress_bar{
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+               .progress{
+                height: 4px;
+                overflow: visible;
+                font-size: 12px;
+                background-color:#FF4F42;
+                border-radius: 0;
+                 .progress-bar{
+                    background-color: #3CC78F;
+                    position: relative;
+                     .progres_count{
+                        position: absolute;
+                        right: 0;
+                        width: 32px;
+                        height: 32px;
+                        @include border-radius(50%);
+                        font-size: 12px;
+                        background: #3CC78F;
+                        line-height: 32px;
+                     }
+                 }  
+               } 
+            }
+
+
+            .balance{
+                padding-bottom: 20px;
+                margin-bottom: 25px;
+                span{
+                   font-size: 14px; 
+                   color: #222222;
+                   font-weight: 600;
+                   font-family: $font2;
+                }
+                border-bottom: 1px solid #F2F2F2 ;
+            }
+            h4{
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-bottom: 15px;
+                color: #7A7B7C;
+            }
+        }
+        &:hover{
+            .thumb{
+                img{
+                    @include transform(scale(1.1));
+                }
+            }
+        }
+    }
+}

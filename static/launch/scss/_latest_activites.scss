@@ -1,0 +1,68 @@
+.video_bg_1{
+    background-image: url(../img/banner/man.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.latest_activites_area{
+    background: rgba(60, 199, 143,.06);
+    position: relative;
+    .video_activite{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40%;
+        bottom: 0;
+        @media #{$mobile_device} {
+            display: none !important;
+        }
+        @media #{$tablet_device} {
+            display: none !important;
+        }
+        a{
+            font-size: 70px;
+            color: #fff;
+            position: relative;
+            z-index: 12;
+            width: 150px;
+            height: 150px;
+            background: #3CC78F;
+            text-align: center;
+            line-height: 150px;
+            @include border-radius(50%);
+        }
+        &::before{
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: #3CC78F;
+            opacity: .3;
+            content: '';
+        }
+    }
+    .activites_info{
+        padding-right: 156px;
+        padding-top: 240px;
+        padding-bottom: 226px;
+        @media #{$mobile_device}{
+            padding: 50px 15px;
+        }
+        .section_title{
+            h3{
+
+            }
+        }
+        p{
+            &.para_1{
+                margin-bottom: 22px;
+                margin-top: 20px;
+            }
+            &.para_2{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,35 @@
+{% extends 'volunteer/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/volunteer_view_notification_search#asd">
+  <table class="table-borderless table" width="200" border="1">
+    <tr>
+      <td>From</td>
+      <td><label for="textfield"></label>
+      <input type="text" name="textfield" class="form-control" required id="textfield" /></td>
+      <td>To</td>
+      <td><label for="textfield2"></label>
+      <input type="text" name="textfield2" id="textfield2" /></td>
+      <td><input type="submit" name="button" class="form-control" required id="button" value="Submit" /></td>
+    </tr>
+  </table>
+  <table class="table-active table" width="200" border="1">
+    <tr>
+      <td>Sl no</td>
+      <td>Notification</td>
+      <td>Date</td>
+{#      <td>&nbsp;</td>#}
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}&nbsp;</td>
+      <td>&nbsp;{{ i['notification'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+{#      <td><a href="/delete_notification/{{ i['notification_id'] }}" onclick="return confirm(' confirm to delete')">delete</a></td>#}
+    </tr>
+      {% endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

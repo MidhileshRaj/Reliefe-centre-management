@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d8223b9-d505-4c5d-9c19-e435538e32f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db 05 - 04 -23.sql" afterPath="$PROJECT_DIR$/db 05 - 04 -23.sql" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Rcm$Rcm.coverage" NAME="Rcm Coverage Results" MODIFIED="1688098475681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Rcm$code.coverage" NAME="code Coverage Results" MODIFIED="1682415650813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Rcm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Rcm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rcm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1434" column="76" lean-forward="false" selection-start-line="1406" selection-start-column="7" selection-end-line="1434" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1687778340933" expanded="true" signature="528:568" ph="SELECT * FRO... login" />
+                <marker date="1687778340933" expanded="true" signature="528:577" ph="SELECT * FRO... login" />
+                <marker date="1687778340933" expanded="true" signature="574:577" ph="SELECT * FRO... guest" />
+                <marker date="1687778340933" expanded="true" signature="981:1059" ph="SELECT * FRO... login" />
+                <marker date="1687778340933" expanded="true" signature="2685:2775" ph="INSERT INTO `login`... " />
+                <marker date="1687778340933" expanded="true" signature="2810:3023" ph="INSERT INTO `guest`... " />
+                <marker date="1687778340933" expanded="true" signature="4770:4870" ph="INSERT INTO `login`... " />
+                <marker date="1687778340933" expanded="true" signature="4910:5141" ph="INSERT INTO `managers`... " />
+                <marker date="1687778340933" expanded="true" signature="5414:5438" ph="SELECT * FRO... managers" />
+                <marker date="1687778340933" expanded="true" signature="5780:5837" ph="SELECT * FRO... managers" />
+                <marker date="1687778340933" expanded="true" signature="6100:6147" ph="SELECT * FRO... managers" />
+                <marker date="1687778340933" expanded="true" signature="7010:7234" ph="UPDATE `mana... " />
+                <marker date="1687778340933" expanded="true" signature="7283:7348" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="7504:7744" ph="UPDATE `mana... " />
+                <marker date="1687778340933" expanded="true" signature="7793:7863" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="8011:8251" ph="UPDATE `mana... " />
+                <marker date="1687778340933" expanded="true" signature="8292:8362" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="8565:8609" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="8642:8683" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="9133:9237" ph="INSERT INTO `notifications`... " />
+                <marker date="1687778340933" expanded="true" signature="9512:9541" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="9852:9930" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="10122:10182" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="10444:10468" ph="SELECT * FRO... managers" />
+                <marker date="1687778340933" expanded="true" signature="11055:11283" ph="INSERT INTO `relief_center`... " />
+                <marker date="1687778340933" expanded="true" signature="11055:11294" ph="INSERT INTO `relief_center`... " />
+                <marker date="1687778340933" expanded="true" signature="11055:11296" ph="INSERT INTO `relief_center`... " />
+                <marker date="1687778340933" expanded="true" signature="11333:11454" ph="INSERT INTO `allocate_manager`... " />
+                <marker date="1687778340933" expanded="true" signature="11725:11754" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="12020:12082" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="12340:12390" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="12440:12464" ph="SELECT * FRO... managers" />
+                <marker date="1687778340933" expanded="true" signature="12513:12573" ph="SELECT * FRO... allocate_manager" />
+                <marker date="1687778340933" expanded="true" signature="13261:13316" ph="UPDATE `reli... " />
+                <marker date="1687778340933" expanded="true" signature="13261:13511" ph="UPDATE `reli... " />
+                <marker date="1687778340933" expanded="true" signature="13544:13632" ph="UPDATE `allo... " />
+                <marker date="1687778340933" expanded="true" signature="13826:13873" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="15200:15351" ph="SELECT * FRO... allocate_manager" />
+                <marker date="1687778340933" expanded="true" signature="15550:15607" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="15884:15975" ph="SELECT * FRO... request" />
+                <marker date="1687778340933" expanded="true" signature="16366:16516" ph="SELECT * FRO... request" />
+                <marker date="1687778340933" expanded="true" signature="16780:16801" ph="SELECT * FRO... guest" />
+                <marker date="1687778340933" expanded="true" signature="17136:17191" ph="SELECT * FRO... guest" />
+                <marker date="1687778340933" expanded="true" signature="17458:17610" ph="SELECT * FRO... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="17962:18157" ph="SELECT * FRO... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="18428:18511" ph="SELECT * FRO... donation" />
+                <marker date="1687778340933" expanded="true" signature="18559:18590" ph="SELECT * FRO... public_donation" />
+                <marker date="1687778340933" expanded="true" signature="18997:19140" ph="SELECT * FRO... donation" />
+                <marker date="1687778340933" expanded="true" signature="19187:19268" ph="SELECT * FRO... public_donation" />
+                <marker date="1687778340933" expanded="true" signature="19821:19875" ph="INSERT INTO `feedbackquestions`... " />
+                <marker date="1687778340933" expanded="true" signature="19821:19885" ph="INSERT INTO `feedbackquestions`... " />
+                <marker date="1687778340933" expanded="true" signature="20192:20225" ph="SELECT * FRO... feedbackquestions" />
+                <marker date="1687778340933" expanded="true" signature="20521:20566" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="20521:20573" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="20961:21025" ph="SELECT * FRO... managers" />
+                <marker date="1687778340933" expanded="true" signature="21612:21805" ph="INSERT INTO `request`... " />
+                <marker date="1687778340933" expanded="true" signature="22109:22165" ph="UPDATE `requ... " />
+                <marker date="1687778340933" expanded="true" signature="22109:22172" ph="UPDATE `requ... " />
+                <marker date="1687778340933" expanded="true" signature="22473:22714" ph="SELECT `reli... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="22937:23063" ph="SELECT * FRO... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="23348:23377" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="23780:23858" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="24140:24580" ph="SELECT `volu... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="24859:24918" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="24959:25031" ph="UPDATE `volu... " />
+                <marker date="1687778340933" expanded="true" signature="25073:25136" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="25073:25144" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="25438:25510" ph="UPDATE `volu... " />
+                <marker date="1687778340933" expanded="true" signature="25808:26266" ph="SELECT `volu... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="26633:27129" ph="SELECT `volu... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="27418:27876" ph="SELECT `volu... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="28241:28737" ph="SELECT `volu... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="29025:29088" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="29129:29205" ph="UPDATE `volu... " />
+                <marker date="1687778340933" expanded="true" signature="29500:29559" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="29600:29676" ph="UPDATE `volu... " />
+                <marker date="1687778340933" expanded="true" signature="29989:30177" ph="SELECT * FRO... request" />
+                <marker date="1687778340933" expanded="true" signature="30492:30733" ph="SELECT `item... items_send" />
+                <marker date="1687778340933" expanded="true" signature="30492:30742" ph="SELECT `item... items_send" />
+                <marker date="1687778340933" expanded="true" signature="31785:31859" ph="SELECT * FRO... task" />
+                <marker date="1687778340933" expanded="true" signature="31937:32043" ph="INSERT INTO `task`... " />
+                <marker date="1687778340933" expanded="true" signature="32497:32792" ph="SELECT * FRO... task" />
+                <marker date="1687778340933" expanded="true" signature="33201:33570" ph="SELECT * FRO... task" />
+                <marker date="1687778340933" expanded="true" signature="33769:33810" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="34624:34712" ph="SELECT * FRO... login" />
+                <marker date="1687778340933" expanded="true" signature="34834:34918" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="35773:35923" ph="INSERT INTO `refugees`... " />
+                <marker date="1687778340933" expanded="true" signature="36205:36273" ph="SELECT * FRO... refugees" />
+                <marker date="1687778340933" expanded="true" signature="36542:36589" ph="SELECT * FRO... refugees" />
+                <marker date="1687778340933" expanded="true" signature="37080:37204" ph="UPDATE `refu... " />
+                <marker date="1687778340933" expanded="true" signature="37491:37535" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="37841:37904" ph="SELECT * FRO... task" />
+                <marker date="1687778340933" expanded="true" signature="38317:38433" ph="SELECT * FRO... task" />
+                <marker date="1687778340933" expanded="true" signature="38717:38782" ph="UPDATE `task... " />
+                <marker date="1687778340933" expanded="true" signature="39079:39427" ph="SELECT `volu... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="39709:39776" ph="SELECT * FRO... guest" />
+                <marker date="1687778340933" expanded="true" signature="40728:40948" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="41005:41086" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="41267:41521" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="41578:41667" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="41840:42090" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="42139:42228" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="42544:42573" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="42983:43069" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="43271:43337" ph="DELETE FROM " />
+                <marker date="1687778340933" expanded="true" signature="43370:43441" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="44157:44224" ph="SELECT * FRO... guest" />
+                <marker date="1687778340933" expanded="true" signature="45164:45384" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="45441:45522" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="45703:45957" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="46014:46103" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="46276:46526" ph="UPDATE `gues... " />
+                <marker date="1687778340933" expanded="true" signature="46575:46664" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="47391:47479" ph="SELECT * FRO... login" />
+                <marker date="1687778340933" expanded="true" signature="47601:47685" ph="UPDATE `logi... " />
+                <marker date="1687778340933" expanded="true" signature="48185:48214" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="48612:48690" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="48971:49062" ph="SELECT * FRO... request" />
+                <marker date="1687778340933" expanded="true" signature="49462:49612" ph="SELECT * FRO... request" />
+                <marker date="1687778340933" expanded="true" signature="49883:49912" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="50264:50326" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="50605:50634" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="50980:51047" ph="SELECT * FRO... volunteer" />
+                <marker date="1687778340933" expanded="true" signature="51125:51238" ph="INSERT INTO `volunteer`... " />
+                <marker date="1687778340933" expanded="true" signature="52036:52119" ph="SELECT * FRO... bank" />
+                <marker date="1687778340933" expanded="true" signature="52341:52477" ph="INSERT INTO `donation`... " />
+                <marker date="1687778340933" expanded="true" signature="52543:52670" ph="UPDATE `bank... " />
+                <marker date="1687778340933" expanded="true" signature="54078:54109" ph="select * fro... feedbackquestions" />
+                <marker date="1687778340933" expanded="true" signature="54584:54741" ph="INSERT INTO `feedbackanswers`... " />
+                <marker date="1687778340933" expanded="true" signature="55116:55149" ph="SELECT * FRO... feedbackquestions" />
+                <marker date="1687778340933" expanded="true" signature="55258:55382" ph="SELECT COUNT... feedbackanswers" />
+                <marker date="1687778340933" expanded="true" signature="55472:55596" ph="SELECT COUNT... feedbackanswers" />
+                <marker date="1687778340933" expanded="true" signature="55686:55809" ph="SELECT COUNT... feedbackanswers" />
+                <marker date="1687778340933" expanded="true" signature="56207:56254" ph="SELECT * FRO... items_send" />
+                <marker date="1687778340933" expanded="true" signature="56207:56323" ph="SELECT * FRO... items_send" />
+                <marker date="1687778340933" expanded="true" signature="56401:56465" ph="INSERT INTO `items_send`... " />
+                <marker date="1687778340933" expanded="true" signature="56401:56476" ph="INSERT INTO `items_send`... " />
+                <marker date="1687778340933" expanded="true" signature="56401:56511" ph="INSERT INTO `items_send`... " />
+                <marker date="1687778340933" expanded="true" signature="57313:57404" ph="SELECT * FRO... bank" />
+                <marker date="1687778340933" expanded="true" signature="57602:57707" ph="INSERT INTO `public_donation`... " />
+                <marker date="1687778340933" expanded="true" signature="57764:57834" ph="UPDATE `bank... " />
+                <marker date="1687778340933" expanded="true" signature="57764:57858" ph="UPDATE `bank... " />
+                <marker date="1687778340933" expanded="true" signature="58404:58433" ph="SELECT * FRO... relief_center" />
+                <marker date="1687778340933" expanded="true" signature="58626:58655" ph="SELECT * FRO... notifications" />
+                <marker date="1687778340933" expanded="true" signature="58953:59031" ph="SELECT * FRO... notifications" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vaderSentiment.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Python36/Lib/site-packages/vaderSentiment/vaderSentiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3864">
+              <caret line="192" column="6" lean-forward="false" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change password.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/volunteer/change password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answergraph.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/answergraph.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db 05 - 04 -23.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db 05 - 04 -23.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBConnection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answerfeedback.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/answerfeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add feedback qstn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/add feedback qstn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add manager.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/add manager.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2058">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view feedback question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/view feedback question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>guest/d</find>
+      <find>guest/do</find>
+      <find>Assign T</find>
+      <find>_donation_post</find>
+      <find>&lt;script</find>
+      <find>&lt;script&gt;</find>
+      <find>{%</find>
+      <find>manager</find>
+      <find>manager_send</find>
+      <find>add_rc</find>
+      <find>edit_r</find>
+      <find>assign</find>
+      <find>view_volunteer_for_centre</find>
+      <find>manager_view_items_send</find>
+      <find>guest_view_item_request</find>
+      <find>wrap</find>
+      <find>container</find>
+      <find>box</find>
+      <find>favicon</find>
+      <find>edit_refugees_post</find>
+      <find>/log</find>
+      <find>/logo</find>
+      <find>@app.route('/'</find>
+      <find>label</find>
+      <find>username_already</find>
+      <find>btn</find>
+      <find>approve</find>
+      <find>guest_se</find>
+      <find>manager_view</find>
+      <find>userviewtotalemotiongraph</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/admin/View Notification.html" />
+        <option value="$PROJECT_DIR$/templates/admin/View relief centre.html" />
+        <option value="$PROJECT_DIR$/templates/admin/View Volunteers.html" />
+        <option value="$PROJECT_DIR$/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/templates/guest/change password.html" />
+        <option value="$PROJECT_DIR$/templates/guest/donation.html" />
+        <option value="$PROJECT_DIR$/templates/guest/edit profile.html" />
+        <option value="$PROJECT_DIR$/templates/guest/View Notification.html" />
+        <option value="$PROJECT_DIR$/templates/guest/view profile.html" />
+        <option value="$PROJECT_DIR$/templates/guest/volunteer request.html" />
+        <option value="$PROJECT_DIR$/templates/answerfeedback.html" />
+        <option value="$PROJECT_DIR$/templates/manager/index.html" />
+        <option value="$PROJECT_DIR$/templates/manager/Assign task for volunteer.html" />
+        <option value="$PROJECT_DIR$/templates/manager/request item.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View approved Volunteers.html" />
+        <option value="$PROJECT_DIR$/templates/manager/view assigned task.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View centre Volunteers.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View Notification.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View Profile.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View rejected Volunteers.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View Volunteers.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/change password.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/edit profile.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/view assigned task.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/View Notification.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/view profile.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/view refugee.html" />
+        <option value="$PROJECT_DIR$/templates/admin/add relief centers.html" />
+        <option value="$PROJECT_DIR$/templates/guest/View relief centre.html" />
+        <option value="$PROJECT_DIR$/templates/admin/edit relief centers.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View assigned centre.html" />
+        <option value="$PROJECT_DIR$/templates/manager/view_items_send.html" />
+        <option value="$PROJECT_DIR$/templates/manager/View item request.html" />
+        <option value="$PROJECT_DIR$/templates/guest/View item request.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Home Index.html" />
+        <option value="$PROJECT_DIR$/templates/guest/Home Index.html" />
+        <option value="$PROJECT_DIR$/templates/answergraph.html" />
+        <option value="$PROJECT_DIR$/templates/manager/Home Index.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/edit refugees.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/Home Index.html" />
+        <option value="$PROJECT_DIR$/templates/launch.html" />
+        <option value="$PROJECT_DIR$/templates/admin/Home2.html" />
+        <option value="$PROJECT_DIR$/templates/guest/Home2.html" />
+        <option value="$PROJECT_DIR$/templates/manager/Home2.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/Home2.html" />
+        <option value="$PROJECT_DIR$/templates/register index.html" />
+        <option value="$PROJECT_DIR$/templates/admin/add manager.html" />
+        <option value="$PROJECT_DIR$/templates/volunteer/refugee manage.html" />
+        <option value="$PROJECT_DIR$/templates/admin/view guest.html" />
+        <option value="$PROJECT_DIR$/Rcm.py" />
+        <option value="$PROJECT_DIR$/db 05 - 04 -23.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="volunteer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rcm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Riss\Projects\Rcm\templates" />
+      <recent name="D:\Riss\Projects\Rcm\templates\manager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Riss\Projects\Rcm($)\Rcm3\Rcm (2)\Rcm\static" />
+      <recent name="D:\Riss\Projects\Rcm($)\Rcm3\Rcm (2)\Rcm\templates\volunteer" />
+      <recent name="D:\Riss\Projects\Rcm($)\Rcm3\Rcm (2)\Rcm\templates\manager" />
+      <recent name="D:\Riss\Projects\Rcm($)\Rcm3\Rcm (2)\Rcm\templates\guest" />
+      <recent name="D:\Riss\Projects\Rcm($)\Rcm3\Rcm (2)\Rcm\templates\admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Rcm">
+    <configuration default="false" name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Rcm" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rcm" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rcm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rcm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.Rcm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.code" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.code" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d8223b9-d505-4c5d-9c19-e435538e32f7" name="Default" comment="" />
+      <created>1680507123674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680507123674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2139808" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32629356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16541353" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/view centre details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/view profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/view refugee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/add relief centers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/View relief centre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/edit relief centers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13692">
+          <caret line="653" column="8" lean-forward="false" selection-start-line="653" selection-start-column="8" selection-end-line="653" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/Assign task for volunteer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="79" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/View approved Volunteers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/view assigned task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/View centre Volunteers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/View assigned centre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/view_items_send.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/volunteer request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/View item request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="638" column="3" lean-forward="true" selection-start-line="638" selection-start-column="3" selection-end-line="762" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/edit profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/Home Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Home Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="99" column="88" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/Home Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="120" column="82" lean-forward="false" selection-start-line="120" selection-start-column="82" selection-end-line="120" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/edit refugees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/Home Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15767">
+          <caret line="120" column="82" lean-forward="false" selection-start-line="120" selection-start-column="82" selection-end-line="120" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/launch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19362">
+          <caret line="922" column="54" lean-forward="false" selection-start-line="922" selection-start-column="54" selection-end-line="922" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/Home2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20538">
+          <caret line="978" column="55" lean-forward="false" selection-start-line="978" selection-start-column="55" selection-end-line="978" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/Home2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20139">
+          <caret line="959" column="32" lean-forward="false" selection-start-line="959" selection-start-column="32" selection-end-line="959" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/Home2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20160">
+          <caret line="960" column="56" lean-forward="false" selection-start-line="960" selection-start-column="56" selection-end-line="960" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/Home2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45073">
+          <caret line="959" column="56" lean-forward="false" selection-start-line="959" selection-start-column="56" selection-end-line="959" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jqueryy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5264">
+          <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/refugee manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/View Volunteers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/View Volunteers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/view guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="150" lean-forward="false" selection-start-line="26" selection-start-column="150" selection-end-line="26" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/View relief centre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/View item request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/View Notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="89" column="87" lean-forward="false" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/guest/change password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/volunteer/change password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/add feedback qstn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/add manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/view feedback question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/vaderSentiment/vaderSentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="192" column="6" lean-forward="false" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/answerfeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db 05 - 04 -23.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/answergraph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1434" column="76" lean-forward="false" selection-start-line="1406" selection-start-column="7" selection-end-line="1434" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1687778340933" expanded="true" signature="528:568" ph="SELECT * FRO... login" />
+            <marker date="1687778340933" expanded="true" signature="528:577" ph="SELECT * FRO... login" />
+            <marker date="1687778340933" expanded="true" signature="574:577" ph="SELECT * FRO... guest" />
+            <marker date="1687778340933" expanded="true" signature="981:1059" ph="SELECT * FRO... login" />
+            <marker date="1687778340933" expanded="true" signature="2685:2775" ph="INSERT INTO `login`... " />
+            <marker date="1687778340933" expanded="true" signature="2810:3023" ph="INSERT INTO `guest`... " />
+            <marker date="1687778340933" expanded="true" signature="4770:4870" ph="INSERT INTO `login`... " />
+            <marker date="1687778340933" expanded="true" signature="4910:5141" ph="INSERT INTO `managers`... " />
+            <marker date="1687778340933" expanded="true" signature="5414:5438" ph="SELECT * FRO... managers" />
+            <marker date="1687778340933" expanded="true" signature="5780:5837" ph="SELECT * FRO... managers" />
+            <marker date="1687778340933" expanded="true" signature="6100:6147" ph="SELECT * FRO... managers" />
+            <marker date="1687778340933" expanded="true" signature="7010:7234" ph="UPDATE `mana... " />
+            <marker date="1687778340933" expanded="true" signature="7283:7348" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="7504:7744" ph="UPDATE `mana... " />
+            <marker date="1687778340933" expanded="true" signature="7793:7863" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="8011:8251" ph="UPDATE `mana... " />
+            <marker date="1687778340933" expanded="true" signature="8292:8362" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="8565:8609" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="8642:8683" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="9133:9237" ph="INSERT INTO `notifications`... " />
+            <marker date="1687778340933" expanded="true" signature="9512:9541" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="9852:9930" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="10122:10182" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="10444:10468" ph="SELECT * FRO... managers" />
+            <marker date="1687778340933" expanded="true" signature="11055:11283" ph="INSERT INTO `relief_center`... " />
+            <marker date="1687778340933" expanded="true" signature="11055:11294" ph="INSERT INTO `relief_center`... " />
+            <marker date="1687778340933" expanded="true" signature="11055:11296" ph="INSERT INTO `relief_center`... " />
+            <marker date="1687778340933" expanded="true" signature="11333:11454" ph="INSERT INTO `allocate_manager`... " />
+            <marker date="1687778340933" expanded="true" signature="11725:11754" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="12020:12082" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="12340:12390" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="12440:12464" ph="SELECT * FRO... managers" />
+            <marker date="1687778340933" expanded="true" signature="12513:12573" ph="SELECT * FRO... allocate_manager" />
+            <marker date="1687778340933" expanded="true" signature="13261:13316" ph="UPDATE `reli... " />
+            <marker date="1687778340933" expanded="true" signature="13261:13511" ph="UPDATE `reli... " />
+            <marker date="1687778340933" expanded="true" signature="13544:13632" ph="UPDATE `allo... " />
+            <marker date="1687778340933" expanded="true" signature="13826:13873" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="15200:15351" ph="SELECT * FRO... allocate_manager" />
+            <marker date="1687778340933" expanded="true" signature="15550:15607" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="15884:15975" ph="SELECT * FRO... request" />
+            <marker date="1687778340933" expanded="true" signature="16366:16516" ph="SELECT * FRO... request" />
+            <marker date="1687778340933" expanded="true" signature="16780:16801" ph="SELECT * FRO... guest" />
+            <marker date="1687778340933" expanded="true" signature="17136:17191" ph="SELECT * FRO... guest" />
+            <marker date="1687778340933" expanded="true" signature="17458:17610" ph="SELECT * FRO... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="17962:18157" ph="SELECT * FRO... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="18428:18511" ph="SELECT * FRO... donation" />
+            <marker date="1687778340933" expanded="true" signature="18559:18590" ph="SELECT * FRO... public_donation" />
+            <marker date="1687778340933" expanded="true" signature="18997:19140" ph="SELECT * FRO... donation" />
+            <marker date="1687778340933" expanded="true" signature="19187:19268" ph="SELECT * FRO... public_donation" />
+            <marker date="1687778340933" expanded="true" signature="19821:19875" ph="INSERT INTO `feedbackquestions`... " />
+            <marker date="1687778340933" expanded="true" signature="19821:19885" ph="INSERT INTO `feedbackquestions`... " />
+            <marker date="1687778340933" expanded="true" signature="20192:20225" ph="SELECT * FRO... feedbackquestions" />
+            <marker date="1687778340933" expanded="true" signature="20521:20566" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="20521:20573" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="20961:21025" ph="SELECT * FRO... managers" />
+            <marker date="1687778340933" expanded="true" signature="21612:21805" ph="INSERT INTO `request`... " />
+            <marker date="1687778340933" expanded="true" signature="22109:22165" ph="UPDATE `requ... " />
+            <marker date="1687778340933" expanded="true" signature="22109:22172" ph="UPDATE `requ... " />
+            <marker date="1687778340933" expanded="true" signature="22473:22714" ph="SELECT `reli... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="22937:23063" ph="SELECT * FRO... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="23348:23377" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="23780:23858" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="24140:24580" ph="SELECT `volu... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="24859:24918" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="24959:25031" ph="UPDATE `volu... " />
+            <marker date="1687778340933" expanded="true" signature="25073:25136" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="25073:25144" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="25438:25510" ph="UPDATE `volu... " />
+            <marker date="1687778340933" expanded="true" signature="25808:26266" ph="SELECT `volu... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="26633:27129" ph="SELECT `volu... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="27418:27876" ph="SELECT `volu... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="28241:28737" ph="SELECT `volu... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="29025:29088" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="29129:29205" ph="UPDATE `volu... " />
+            <marker date="1687778340933" expanded="true" signature="29500:29559" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="29600:29676" ph="UPDATE `volu... " />
+            <marker date="1687778340933" expanded="true" signature="29989:30177" ph="SELECT * FRO... request" />
+            <marker date="1687778340933" expanded="true" signature="30492:30733" ph="SELECT `item... items_send" />
+            <marker date="1687778340933" expanded="true" signature="30492:30742" ph="SELECT `item... items_send" />
+            <marker date="1687778340933" expanded="true" signature="31785:31859" ph="SELECT * FRO... task" />
+            <marker date="1687778340933" expanded="true" signature="31937:32043" ph="INSERT INTO `task`... " />
+            <marker date="1687778340933" expanded="true" signature="32497:32792" ph="SELECT * FRO... task" />
+            <marker date="1687778340933" expanded="true" signature="33201:33570" ph="SELECT * FRO... task" />
+            <marker date="1687778340933" expanded="true" signature="33769:33810" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="34624:34712" ph="SELECT * FRO... login" />
+            <marker date="1687778340933" expanded="true" signature="34834:34918" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="35773:35923" ph="INSERT INTO `refugees`... " />
+            <marker date="1687778340933" expanded="true" signature="36205:36273" ph="SELECT * FRO... refugees" />
+            <marker date="1687778340933" expanded="true" signature="36542:36589" ph="SELECT * FRO... refugees" />
+            <marker date="1687778340933" expanded="true" signature="37080:37204" ph="UPDATE `refu... " />
+            <marker date="1687778340933" expanded="true" signature="37491:37535" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="37841:37904" ph="SELECT * FRO... task" />
+            <marker date="1687778340933" expanded="true" signature="38317:38433" ph="SELECT * FRO... task" />
+            <marker date="1687778340933" expanded="true" signature="38717:38782" ph="UPDATE `task... " />
+            <marker date="1687778340933" expanded="true" signature="39079:39427" ph="SELECT `volu... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="39709:39776" ph="SELECT * FRO... guest" />
+            <marker date="1687778340933" expanded="true" signature="40728:40948" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="41005:41086" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="41267:41521" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="41578:41667" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="41840:42090" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="42139:42228" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="42544:42573" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="42983:43069" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="43271:43337" ph="DELETE FROM " />
+            <marker date="1687778340933" expanded="true" signature="43370:43441" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="44157:44224" ph="SELECT * FRO... guest" />
+            <marker date="1687778340933" expanded="true" signature="45164:45384" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="45441:45522" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="45703:45957" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="46014:46103" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="46276:46526" ph="UPDATE `gues... " />
+            <marker date="1687778340933" expanded="true" signature="46575:46664" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="47391:47479" ph="SELECT * FRO... login" />
+            <marker date="1687778340933" expanded="true" signature="47601:47685" ph="UPDATE `logi... " />
+            <marker date="1687778340933" expanded="true" signature="48185:48214" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="48612:48690" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="48971:49062" ph="SELECT * FRO... request" />
+            <marker date="1687778340933" expanded="true" signature="49462:49612" ph="SELECT * FRO... request" />
+            <marker date="1687778340933" expanded="true" signature="49883:49912" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="50264:50326" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="50605:50634" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="50980:51047" ph="SELECT * FRO... volunteer" />
+            <marker date="1687778340933" expanded="true" signature="51125:51238" ph="INSERT INTO `volunteer`... " />
+            <marker date="1687778340933" expanded="true" signature="52036:52119" ph="SELECT * FRO... bank" />
+            <marker date="1687778340933" expanded="true" signature="52341:52477" ph="INSERT INTO `donation`... " />
+            <marker date="1687778340933" expanded="true" signature="52543:52670" ph="UPDATE `bank... " />
+            <marker date="1687778340933" expanded="true" signature="54078:54109" ph="select * fro... feedbackquestions" />
+            <marker date="1687778340933" expanded="true" signature="54584:54741" ph="INSERT INTO `feedbackanswers`... " />
+            <marker date="1687778340933" expanded="true" signature="55116:55149" ph="SELECT * FRO... feedbackquestions" />
+            <marker date="1687778340933" expanded="true" signature="55258:55382" ph="SELECT COUNT... feedbackanswers" />
+            <marker date="1687778340933" expanded="true" signature="55472:55596" ph="SELECT COUNT... feedbackanswers" />
+            <marker date="1687778340933" expanded="true" signature="55686:55809" ph="SELECT COUNT... feedbackanswers" />
+            <marker date="1687778340933" expanded="true" signature="56207:56254" ph="SELECT * FRO... items_send" />
+            <marker date="1687778340933" expanded="true" signature="56207:56323" ph="SELECT * FRO... items_send" />
+            <marker date="1687778340933" expanded="true" signature="56401:56465" ph="INSERT INTO `items_send`... " />
+            <marker date="1687778340933" expanded="true" signature="56401:56476" ph="INSERT INTO `items_send`... " />
+            <marker date="1687778340933" expanded="true" signature="56401:56511" ph="INSERT INTO `items_send`... " />
+            <marker date="1687778340933" expanded="true" signature="57313:57404" ph="SELECT * FRO... bank" />
+            <marker date="1687778340933" expanded="true" signature="57602:57707" ph="INSERT INTO `public_donation`... " />
+            <marker date="1687778340933" expanded="true" signature="57764:57834" ph="UPDATE `bank... " />
+            <marker date="1687778340933" expanded="true" signature="57764:57858" ph="UPDATE `bank... " />
+            <marker date="1687778340933" expanded="true" signature="58404:58433" ph="SELECT * FRO... relief_center" />
+            <marker date="1687778340933" expanded="true" signature="58626:58655" ph="SELECT * FRO... notifications" />
+            <marker date="1687778340933" expanded="true" signature="58953:59031" ph="SELECT * FRO... notifications" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

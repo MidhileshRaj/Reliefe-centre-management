@@ -1,0 +1,48 @@
+{% extends 'volunteer/Home2.html' %}
+{% block body %}
+<form name="form1" enctype="multipart/form-data" method="post" action="/edit_refugees_post">
+    <input type="hidden" name="rid" value="{{ data['rid'] }}">
+  <table class="table-active table" width="200" border="1">
+    <tr>
+      <td>Name</td>
+      <td><label for="textfield"></label>
+      <input type="text" class="form-control" name="textfield"  value="{{ data['rname'] }}"  id="textfield"></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td><p>
+        <label>
+          <input type="radio" name="gender" value="Male" {% if data['gender']=='Male' %}checked{% endif %} id="gender_0">
+          Male</label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="Female"{% if data['gender']=='Female' %}checked{% endif %} id="gender_1">
+          Female</label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="Other" {% if data['gender']=='Other' %}checked{% endif %}id="gender_2">
+          Other</label>
+        <br>
+      </p></td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td><label for="textfield2"></label>
+      <input type="text" class="form-control" name="textfield2"  value="{{ data['age'] }}" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td><label for="textfield3"></label>
+        <label for="textarea"></label>
+      <textarea class="form-control" name="textarea" id="textarea"> {{ data['address'] }}</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" class="btn btn-outline-success" name="button" id="button" value="Submit">
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

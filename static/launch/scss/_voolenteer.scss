@@ -1,0 +1,68 @@
+.our_volunteer_area{
+    .single_volenteer{
+        position: relative;
+        @media #{$mobile_device} {
+            margin-bottom: 30px;
+        }
+        @media #{$tablet_device} {
+            margin-bottom: 30px;
+        }
+        .volenteer_thumb{
+            padding-right: 70px;
+            padding-bottom: 90px;
+            
+            position: relative;
+            z-index: 12;
+            overflow: hidden;
+            img{
+                width: 100%;
+                @include border-radius(7px);
+            }
+        }
+        .voolenteer_info{
+            box-shadow: 0 3px 6px rgba(0, 0, 0,.16);
+            @include border-radius(7px);
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            left: 40px;
+            top: 90px;
+            .info_inner{
+                padding: 20px 40px;
+                position: relative;
+                z-index: 100;
+                h4{
+                    font-size: 20px;
+                    margin-bottom: 2px;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #222222;
+                    margin-bottom: 0;
+                }
+            }
+            .social_links{
+                position: absolute;
+                top: 50%;
+                @include transform(translateY(-50%));
+                right: 30px;
+                z-index: 99;
+                ul{
+                    li{
+                        display: block;
+                        margin-bottom: 20px;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                        a{
+                            font-size: 16px;
+                            color: #222222;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

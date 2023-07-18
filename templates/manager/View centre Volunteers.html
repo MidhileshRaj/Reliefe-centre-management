@@ -1,0 +1,27 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+
+  </table>
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Volunteer</td>
+      <td>contact</td>
+      <td>Address details</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;<img src="{{ i['photo'] }}" width="100px" height="100px" alt=""/><br>{{ i['name'] }},</td>
+      <td>&nbsp;{{ i['phone'] }}<br>{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['place'] }},<br>{{ i['post'] }},{{ i['district'] }}</td>
+      <td><a class="btn btn-outline-warning" href="/volunteer_task_assign/{{ i['vol_lid'] }}#asd" >assign task</a> </td>
+    </tr>
+      {%  endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

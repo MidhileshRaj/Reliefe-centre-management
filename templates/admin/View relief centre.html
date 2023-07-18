@@ -1,0 +1,40 @@
+{% extends 'admin/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/admin_view_rcentre_search#abc"><table class="table-bordered table" width="200" border="1">
+  <tr>
+    <td><label for="textfield"></label>
+      <input required class="form-control" type="text" name="textfield" id="textfield" /></td>
+    <td><input class="btn btn-secondary" type="submit" name="button" id="button" value="search" /></td>
+  </tr>
+</table>
+
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Sl no.</td>
+      <td>Name</td>
+      <td>Address</td>
+      <td>Facilities</td>
+      <td>maximum occupancy</td>
+      <td>Volunteer</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }}</td>
+      <td>&nbsp;{{ i['place'] }},<br>{{ i['post'] }},{{ i['district'] }}</td>
+      <td>&nbsp;{{ i['fecilities'] }}</td>
+      <td>&nbsp;{{ i['max_occupancy'] }}</td>
+      <td>&nbsp;{{ i['no_of_volunteers'] }}</td>
+      <td><a class="btn btn-outline-warning" href="/edit_rcentre/{{ i['id']  }}#abc">Edit</a></td>
+      <td><a class="btn btn-outline-danger" href="/delete_rcentre/{{ i['id'] }}" onclick="return confirm('Confirm to delete')">Delete</a></td>
+      <td><a class="btn btn-outline-dark" href="/admin_view_allocation/{{ i['id'] }}#abc">View assigned manager</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

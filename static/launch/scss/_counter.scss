@@ -1,0 +1,42 @@
+.counter_area{
+    .counter_bg{
+        // background: rgba(60, 199, 143,.6);
+        background-image: url(../img/banner/counter_bg.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        @include border-radius(7px);
+        overflow: hidden;
+        padding: 64px 0;
+        background-size: cover;
+        @media #{$mid_device} {
+            padding: 64px 25px;
+        }
+    }
+    .overlay:before{
+        background: #3CC78F;
+        opacity: .6;
+    }
+    .single_counter{
+        .icon{
+            margin-right: 10px;
+            i{
+                font-size: 70px;
+                color: #fff;
+            }
+        }
+        .events{
+            h3{
+                font-size: 40px;
+                margin-bottom: 0;
+                color: #fff;
+            }
+            p{
+                margin-bottom: 0;
+                font-size: 20px;
+                margin-bottom: 0;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+    }
+}

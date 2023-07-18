@@ -1,0 +1,32 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Centre details</td>
+      <td>Item requested</td>
+      <td>Type</td>
+      <td>Details</td>
+      <td>Date</td>
+      <td>status</td>
+        <td></td>
+    </tr>
+      {%  for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }},<br>{{ i['place'] }},{{ i['post'] }},<br>{{ i['district'] }}</td>
+      <td>&nbsp;{{ i['item'] }}</td>
+      <td>&nbsp;{{ i['type'] }}</td>
+      <td>&nbsp;{{ i['details'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+      <td>&nbsp; {%  if i['status']=='pending' %}<p style="color: red">{{ i['status'] }}</p><a href="/manager_update_reqst_status/{{ i['req_id'] }}" class="btn btn-outline-warning">Update Status</a>{% else %} {{ i['status'] }}{% endif %}  </td>
+    <td><a href="/manager_view_items_send/{{ i['req_id'] }}" class="btn btn-outline-primary">View Item donators</a> </td>
+    <td></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

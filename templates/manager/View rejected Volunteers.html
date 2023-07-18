@@ -1,0 +1,33 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/view_rejected_volunteer_search#asd">
+  <table class=" table-bordered table" width="200" border="1">
+    <tr>
+      <td><label for="textfield"></label>
+      <input required class="form-control" type="text" name="textfield" id="textfield" /></td>
+      <td><input class=" btn btn-outline-primary" type="submit" name="button" id="button" value="Search" /></td>
+    </tr>
+  </table>
+  <table  class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Volunteer</td>
+      <td>contact</td>
+      <td>Centre details</td>
+      <td></td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;<img src="{{ i['photo'] }}" width="100px" height="100px" alt=""/><br>{{ i['gname'] }},</td>
+      <td>&nbsp;{{ i['phone'] }}<br>{{ i['email'] }}</td>
+      <td>&nbsp;{{ i['name'] }},<br>{{ i['place'] }},{{ i['district'] }}</td>
+      <td><a class="btn btn-outline-success" href="/approve_volunteer2/{{ i['vol_lid'] }}" onclick="return confirm('Confirm to approve this Person...!')">Approve</a>&nbsp;</td>
+    </tr>
+      {%  endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

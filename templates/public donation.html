@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+{% block body %}
+<body>
+<form name="form1" method="post" action="/public_donation_post">
+  <table class="table table-bordered" width="200" border="1">
+    <tr>
+      <td>Account no.</td>
+      <td><label for="textfield"></label>
+      <input class="form-control" type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td>IFSC code</td>
+      <td><label for="textfield2"></label>
+      <input class="form-control" type="text" name="textfield2" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>Amount</td>
+      <td><label for="textfield3"></label>
+      <input class="form-control" type="text" name="textfield3" id="textfield3"></td>
+    </tr>
+    <tr>
+      <td height="43">Account pin</td>
+      <td><label for="textfield4"></label>
+      <input class="form-control" type="password" name="textfield4" id="textfield4"></td>
+    </tr>
+    <tr align="center">
+      <td colspan="2"><input class="btn btn-success" type="submit" onclick="return confirm(' Confirm to Make payment')" name="button" id="button" value="PAY"></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

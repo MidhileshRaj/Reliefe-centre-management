@@ -1,0 +1,47 @@
+{% extends 'volunteer/Home2.html' %}
+{% block body %}
+<form name="form1" method="post" action="/add_refugee_post">
+  <table class="table-active table" width="200" border="1">
+    <tr>
+      <td>Name</td>
+      <td><label for="textfield"></label>
+      <input class="form-control" required type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td><p>
+        <label>
+          <input required type="radio" name="gender" value="Male" id="gender_0">
+          Male</label>
+        <br>
+        <label>
+          <input required type="radio" name="gender" value="Female" id="gender_1">
+          Female</label>
+        <br>
+        <label>
+          <input required type="radio" name="gender" value="Other" id="gender_2">
+          Other</label>
+        <br>
+      </p></td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td><label for="textfield2"></label>
+      <input class="form-control" required type="text" name="textfield2" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td><label for="textfield3"></label>
+        <label for="textarea"></label>
+      <textarea class="form-control" required name="textarea" id="textarea"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input class="btn btn-outline-success" type="submit" name="button" id="button" value="Submit">
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

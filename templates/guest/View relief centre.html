@@ -1,0 +1,40 @@
+{% extends 'guest/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/guest_view_rcentre_search#asd"><table class="table-bordered table" width="200" border="1">
+  <tr>
+    <td><label for="textfield"></label>
+      <input class="form-control" required  type="text" name="textfield" id="textfield" /></td>
+    <td><input class="btn btn-primary" type="submit" name="button" id="button" value="search" /></td>
+  </tr>
+</table>
+
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Sl no.</td>
+      <td>Name</td>
+      <td>Address</td>
+      <td>Facilities</td>
+      <td>maximum occupancy</td>
+      <td>Volunteer</td>
+{#      <td>&nbsp;</td>#}
+{#      <td>&nbsp;</td>#}
+{#      <td>&nbsp;</td>#}
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }}</td>
+      <td>&nbsp;{{ i['place'] }},<br>{{ i['post'] }},{{ i['district'] }}<p>{{ i['phone'] }}</p></td>
+      <td>&nbsp;{{ i['fecilities'] }}</td>
+      <td>&nbsp;{{ i['max_occupancy'] }}</td>
+      <td>&nbsp;{{ i['no_of_volunteers'] }}</td>
+{#      <td><a href="#">Edit</a></td>#}
+{#      <td><a href="/delete_rcentre/{{ i['id'] }}" onclick="return confirm('Confirm to delete')">Delete</a></td>#}
+{#      <td><a href="/admin_view_allocation/{{ i['id'] }}">View assigned manager</a></td>#}
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,35 @@
+{% extends 'volunteer/Home2.html' %}
+{% block body %}
+<form name="form1" method="post" action="/volunteer_view_assigned_task_search#asd">
+<table class="table-borderless table"   width="200" border="1">
+  <tr>
+    <td>From</td>
+    <td><label for="textfield"></label>
+      <input class="form-control" required type="date" name="textfield" id="textfield"></td>
+    <td>To</td>
+    <td><label for="textfield2"></label>
+      <input class="form-control" required type="date" name="textfield2" id="textfield2"></td>
+    <td><input type="submit" name="button" id="button" value="Search"></td>
+  </tr>
+</table>
+
+  <table class="table-active table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Task</td>
+      <td>Date</td>
+      <td>Status</td>
+    </tr>
+      {%  for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['task'] }}</td>
+      <td>&nbsp;{{ i['date'] }}</td>
+      <td>&nbsp;{% if i['status']=='pending' %} <p style="color: red">Pending</p><a class="btn btn-outline-warning" href="/update_task_status/{{ i['id'] }}" onclick="return confirm('Confirm to Update status as work finished ')">Update work status</a>{% else %}<p style="color: green">{{ i['status'] }}</p>{% endif %} </td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

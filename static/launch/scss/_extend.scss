@@ -1,0 +1,22 @@
+.flex-center-start{
+    display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: start;
+    -ms-flex-pack: start;
+        justify-content: start;
+}
+
+%gradient_1{
+    background-image: -moz-linear-gradient( 0deg, rgba(0,28,100,0.8) 21%, rgba(0,28,100,0.8) 22%, rgba(0,53,187,0.3) 100%, rgb(0,53,187) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgba(0,28,100,0.8) 21%, rgba(0,28,100,0.8) 22%, rgba(0,53,187,0.3) 100%, rgb(0,53,187) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgba(0,28,100,0.8) 21%, rgba(0,28,100,0.8) 22%, rgba(0,53,187,0.3) 100%, rgb(0,53,187) 100%);
+}
+%gradient_3{
+    background-image: -moz-linear-gradient( 0deg, rgb(36,192,241) 0%, rgb(76,154,254) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(36,192,241) 0%, rgb(76,154,254) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(36,192,241) 0%, rgb(76,154,254) 100%);
+}

@@ -1,0 +1,56 @@
+.progress-table .table-head .verify,.progress-table .table-head .more {
+    color: #415094;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.progress-table .country {
+    width: 20.07%;
+    }
+.progress-table .verify{
+	width: 10%;
+}
+.progress-table .more{
+	width:10%; 
+}
+
+.form-select select{
+	background: red;
+
+}
+
+table.minimalistBlack {
+border: 2px solid #000000;
+background-color: #BDBDBD;
+width: 100%;
+text-align: left;
+}
+table.minimalistBlack td, table.minimalistBlack th
+{
+padding: 5px 5px;
+}
+table.minimalistBlack tbody td {
+font-size: 13px;
+}
+table.minimalistBlack tr:nth-child(even) {
+background: #F5F5F5;
+}
+table.minimalistBlack thead {
+background: #000000;
+background: -moz-linear-gradient(top, #404040
+0%, #191919 66%, #000000 100%);
+background: -webkit-linear-gradient(top,
+#404040 0%, #191919 66%, #000000 100%);
+background: linear-gradient(to bottom, #404040
+0%, #191919 66%, #000000 100%);
+border-bottom: 3px solid #000000;
+}
+table.minimalistBlack thead th {
+font-size: 15px;
+font-weight: bold;
+color: #8D8D8D;
+text-align: center;
+}
+table.minimalistBlack tfoot td {
+font-size: 14px;
+}

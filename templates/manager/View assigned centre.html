@@ -1,0 +1,32 @@
+{% extends 'manager/Home2.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+
+  <table class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>sl no</td>
+      <td>Name</td>
+      <td>Address</td>
+      <td>Facilities</td>
+      <td>maximum occupancy</td>
+      <td>Volunteer</td>
+      <td>Supply Request</td>
+      <td></td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['name'] }}</td>
+      <td>&nbsp;{{ i['place'] }},<br>{{ i['post'] }},{{ i['district'] }}</td>
+      <td>&nbsp;{{ i['fecilities'] }}</td>
+      <td>&nbsp;{{ i['max_occupancy'] }}</td>
+      <td>&nbsp; <a class="btn btn-outline-dark" href="/view_volunteer_for_centre/{{ i['rcid'] }}#asd">View available volunteers</a> <br>Total volunteers needed :- {{ i['no_of_volunteers'] }}<br></td>
+        <td><a class="btn btn-outline-primary" href="/manager_send_request/{{ i['id'] }}#asd">Send request for suppliers</a><br></td><td><a href="/manager_view_item_request/{{ i['id'] }}" class="btn btn-outline-warning">View supply request</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+  <p>&nbsp;</p>
+</form>
+{% endblock %}
+</body>
+</html>

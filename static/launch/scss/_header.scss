@@ -1,0 +1,279 @@
+.header-area{
+    // position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    // padding-top: 28px;
+    padding: 0 100px 50px 100px;
+    @media #{$mobile_device} {
+        padding: 0 10px 10px 10px;
+    }
+    @media #{$tablet_device} {
+        padding: 0 10px 10px 10px;
+    }
+    .main-header-area{
+        background: #3CC78F;
+        @include border-radius(10px);
+        padding: 25px 35px;
+        position: absolute;
+        bottom: -50px;
+        z-index: 999;
+        z-index: 999;
+        left: 100px;
+        top: 70px;
+        bottom: auto;
+        right: 100px;
+        @media #{$mobile_device}{
+            right: 15px;
+            left: 15px;
+            padding: 12px 0;
+        }
+        @media #{$tablet_device}{
+            right: 15px;
+            left: 15px;
+            padding: 12px 0;
+        }
+        @media #{$mid_device}{
+            right: 60px;
+            left: 60px;
+        }
+        // padding: 0 150px;
+        // @media #{$mobile_device} {
+        //     padding: 10px 10px;
+        // }
+        // @media #{$tablet_device} {
+        //     padding: 10px 10px;
+        // }
+        // @media #{$mid_device} {
+        //     padding: 0 20px;
+        // }
+        // @media #{$large_device} {
+        //     padding: 0 10px;
+        // }
+        .logo{
+            img{
+                @media #{$mobile_device} {
+                    // padding-left: 20px;
+                    width: 100px;
+                }
+                @media #{$tablet_device} {
+                    // padding-left: 20px;
+                    width: 100px;
+                }
+               
+            }
+        }
+        .Appointment{
+            @include flexbox();
+            @include align-items(center);
+            @include justify-content(flex-end);
+           .socail_links{
+               ul{
+                   li{
+                       display: inline-block;
+
+                       a{
+                        color: #A8A7A0;
+                        margin: 0 10px;
+                        font-size: 15px;
+                        &:hover{
+                            color: #fff;
+                        }
+                       }
+                   }
+               }
+           }
+           .book_btn{
+               margin-left: 30px;
+               a{
+                background: #fff;
+                padding: 12px 26px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #222;
+                @include border-radius(4px);
+                font-family: $font2;
+                @media #{$mid_device} {
+                    padding: 12px 20px;
+                }
+                &:hover{
+                    background: #fff;
+                    color: #3CC78F;
+                }
+               }
+           }
+        }
+        .main-menu{
+            padding: 12px 0;
+            @include flexbox();
+            @include align-items(center);
+            @include justify-content(flex-end);
+            @media #{$mobile_device} {
+                display: none;
+            }
+            @media #{$tablet_device} {
+                display: none;
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    position: relative;
+                    margin: 0 10px;
+                    // @media #{$mid_device} {
+                    //     margin-right: 20px;
+                    // }
+                    // @media #{$large_device} {
+                    //     margin-right: 15px;
+                    // }
+                    a{
+                        color: #fff;
+                        font-size: 16px;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        display: inline-block;
+                        padding: 0px 0px 0px 0px;
+                        font-family: $font2;
+                        position: relative;
+                        text-transform:capitalize;
+                        
+                        @media #{$mid_device} {
+                            // padding: 41px 0px 10px 0px;
+                            font-size: 15px;
+                        }
+                        @media #{$large_device} {
+                            // padding: 41px 0px 10px 0px;
+                            font-size: 15px;
+                        }
+                        i{
+                            font-size: 9px;
+                            @media #{$mobile_device}{
+                                display: none !important;
+                            }
+                            @media #{$tablet_device}{
+                                display: none !important;;
+                            }
+                        }
+                        &:hover{
+                            color: #222;
+                        }
+                    }
+                    .submenu {
+                        position: absolute;
+                        left: 0;
+                        top: 160%;
+                        background: #fff;
+                        width: 200px;
+                        z-index: 2;
+                        box-shadow: 0 0  10px rgba(0,0,0,.02);
+                        opacity: 0;
+                        visibility: hidden;
+                        text-align: left;
+                        @include transition(.6s);
+                        li{
+                            display: block;
+                            a{
+                                padding: 10px 15px;
+                                position: inherit;
+                                @include transition(.3s);
+                                display: block;
+                                color: #000;
+                                &::before{
+                                    display: none;
+                                }
+                            }
+                            &:hover a{
+                                color: #000;
+                            }
+                        }
+                    }
+                    &:hover > .submenu{
+                        opacity: 1;
+                        visibility: visible;
+                        top: 150%;
+                    }
+                    &:hover > a::before{
+                        opacity: 1;
+                        transform: scaleX(1);
+                    }
+                    &:first-child a {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+        &.sticky {
+            box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: -70px;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            transform: translateY(70px);
+            transition: transform 500ms ease, background 500ms ease;
+            -webkit-transition: transform 500ms ease, background 500ms ease;
+            box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+            // padding: 10px 150px;
+            background: #3CC78F;
+            bottom: auto;
+            @media #{$mobile_device} {
+                padding: 10px 10px;
+            }
+            @media #{$tablet_device} {
+                padding: 10px 10px;
+            }
+        }
+        
+    }
+    .header-top_area{
+        padding: 23px 0;
+        @media #{$mobile_device} {
+            padding: 10px 0;
+        }
+      .social_media_links{
+          text-align: right;
+          @media #{$mobile_device} {
+              text-align: center;
+          }
+          a{
+            font-size: 15px;
+            color: #222222;
+            margin-right: 12px;
+            &:hover{
+                color: $btn-bg;
+            }
+          }
+      }  
+      .short_contact_list{
+          text-align: left;
+          @media #{$mobile_device} {
+            text-align: center;
+        }
+          @media #{$tablet_device} {
+            text-align: center;
+        }
+          ul{
+              li{
+                  display: inline-block;
+                  a{
+                    font-size: 16px;
+                    color: #222222;
+                    margin-right: 40px;
+                    font-family: $font2;
+                    @media #{$mobile_device} 
+                    {
+                        margin-right: 0;
+                        margin: 0 5px;
+                    }
+                    i{
+                        margin-right: 10px;
+                        font-size: 20px;
+                    }
+                  }
+              }
+          }
+      }
+    }
+}

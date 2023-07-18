@@ -1,0 +1,161 @@
+{#<!DOCTYPE html>#}
+<html lang="en">
+<head>
+	<title>Login V16</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="/static/login/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/static/login/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/static/login/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/static/login/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/static/login/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('/static/login/images/banner.png');">
+			<div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					Guest Registration
+				</span>
+				<form action="/guest_register_post" method="post" enctype="multipart/form-data" class="login100-form validate-form p-b-33 p-t-2">
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" required name="textfield" placeholder="Full name">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+<div class="wrap-input100 validate-input" data-validate = "Enter username">
+
+						<input class="input100" type="text" required name="textfield2" id="textfield2" placeholder="Email ">
+
+						<span class="focus-input100" data-placeholder="&#xe82a;"><label style="color: red" id="label"></label></span>
+					</div>
+<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" required name="textfield3" placeholder="Phone ">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" required name="textfield4" placeholder="Place">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" required name="textfield5" placeholder=" Post">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" required name="textfield6" placeholder="Pin">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" required name="textfield7" placeholder="District">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<input class="input100" type="file" required name="fileField" placeholder="Photo">
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+                        <input type="submit" id="btn" value="Register" class="login100-form-btn" >
+					</div>
+                    <div class="container-login100-form-btn m-t-32">
+                        <a class="btn-link page-link nav-link" href="/">Back to Home page</a>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="/static/login/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login/vendor/bootstrap/js/popper.js"></script>
+	<script src="/static/login/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/static/login/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login/js/main.js"></script>
+<script src="/static/jqueryy.js"></script>
+
+<script>
+ 	$(document).ready(function(){
+ $(document).on('keyup','#textfield2',function () {
+
+			var username=$(this).val();
+		//	alert(uid);
+
+
+
+
+  $.ajax({
+            url: "/username_already/"+username,
+            type: "GET",
+            data: {
+
+
+            },
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function(dat) {
+
+
+
+                 var data=dat["status"];
+{#               alert(data);#}
+         if(data =="ok")
+         {
+         $("#btn").prop("disabled", true);
+            $("#label").text("Email  already exist");
+         }
+         else
+         {
+         $("#btn").prop("disabled", false);
+         $("#label").text("");
+         }
+
+
+            },
+            error: function(ts) {
+//{#                alert(ts);#}
+            }
+        });
+  });
+
+
+
+	});
+</script>
+
+</body>
+</html>

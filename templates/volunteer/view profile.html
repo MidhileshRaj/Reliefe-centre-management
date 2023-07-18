@@ -1,0 +1,39 @@
+{% extends 'volunteer/Home2.html' %}
+{% block body %}
+<form name="form1" method="post" action="">
+  <table class="table-active table" width="200" border="1">
+    <tr>
+      <td colspan="2">&nbsp;<img src="{{ data['photo'] }}" height="100px" width="100px"></td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>&nbsp;{{ data['gname'] }}</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>&nbsp;{{ data['email'] }}</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>&nbsp;{{ data['phone'] }}</td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td>&nbsp;{{ data['gplace'] }},<br>{{ data['gpost'] }},{{ data['gdistrict'] }}</td>
+    </tr>
+      <tr>
+          <td>Centre Name</td>
+          <td>{{ data['name'] }}</td>
+      </tr>
+      <tr>
+          <td>Centre details</td>
+          <td>{{ data['place'] }},<br>{{ data['post'] }},{{ data['district'] }}<br>{{ data['pin'] }}</td>
+      </tr>
+    <tr align="center">
+      <td colspan="2"><a class="btn btn-warning" href="/volunteer_edit_profile#asd">Edit profile</a></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>

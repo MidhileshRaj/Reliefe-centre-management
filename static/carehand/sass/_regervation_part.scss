@@ -1,0 +1,139 @@
+/**************** regervation_part css start ****************/
+.regervation_part {
+    margin-top: -140px;
+    z-index: 9;
+    position: relative;
+    @media #{$tab}{
+        margin-top: 0;
+        padding: 70px 0 0;
+    }
+    @media #{$medium_device}{
+        margin-top: -70px;
+    }
+    .regervation_content {
+        padding: 0 0 0 70px;
+        background-color: $white_color;
+        box-shadow: 0px 5px 10px 0px rgba(0, 47, 104, 0.1);
+        @media #{$tab}{
+            padding: 0;
+            box-shadow: 0px 5px 10px 0px rgba(0, 47, 104, 0);
+        }
+        @media #{$medium_device}{
+            padding: 0;
+        }
+        .col-lg-5 {
+            padding-right: 0;
+            @media #{$small_mobile}{
+                padding-right: 15px;
+            }
+            @media #{$large_mobile}{
+            
+            }
+            
+        }
+
+        .reservation_img {
+            img {
+                width: 100%;
+            }
+            @media #{$small_mobile}{
+                margin-top: 25px;
+            }
+            @media #{$large_mobile}{
+                margin-top: 25px;
+            }
+            
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 60px;
+            @media #{$tab}{
+                margin-bottom: 30px;
+            }
+            @media #{$medium_device}{
+            
+            }
+        }
+    }
+
+    .regerv_btn_iner {
+        display: inline-block;
+        background-color: $btn_bg;
+        color: $white_color;
+        font-family: $font_stack_2;
+        padding: 14.5px 31.5px;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: #0058c4;
+            color: $white_color;
+        }
+    }
+
+    .regervation_part_iner {
+        input {
+            color: #999 !important;
+        }
+
+        .form-control {
+            background-color: transparent;
+            color: #999 !important;
+            border: 1px solid $border;
+            border-radius: 0px;
+            font-size: 14px;
+            font-family: $font_stack_1;
+            margin-bottom: 4px;
+            height: 50px;
+            padding: 15px;
+        }
+
+        textarea.form-control {
+            height: 150px !important;
+            border: 1px solid $border;
+        }
+
+        .time_icon {
+            .nice-select {
+                &:after {
+                    border-bottom: 0px solid #999;
+                    border-right: 0px solid #999;
+                    content: "\e72b";
+                    font-family: 'themify';
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+
+    .ti-calendar {
+        color: #a1a5a5 !important;
+        font-size: 12px;
+        margin-top: 12px;
+        right: 15px;
+    }
+
+    .nice-select {
+        width: 100%;
+        line-height: 18px;
+
+        &:after {
+            top: 41%;
+            right: 15px;
+        }
+    }
+
+    .gj-picker {
+        max-width: 300px !important;
+    }
+
+    a {
+        &:hover {
+            color: $white_color !important;
+        }
+    }
+
+    ::placeholder {
+        color: #999999 !important;
+    }
+}

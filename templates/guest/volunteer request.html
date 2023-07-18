@@ -1,0 +1,21 @@
+{% extends 'guest/Home2.html' %}
+{% block body %}
+<form name="form1" method="post" action="/send_volunteer_request_post">
+  <table  class="table-bordered table" width="200" border="1">
+    <tr>
+      <td>Choose Reliefe Centre</td>
+      <td><label for="select"></label>
+        <select class="form-control" name="select" id="select">
+            {% for i in data %}
+            <option value="{{ i['id'] }}">{{ i['name'] }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr align="center">
+      <td colspan="2"><input class="btn btn-outline-success" type="submit" name="button" id="button" value="Submit"></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
+</body>
+</html>
